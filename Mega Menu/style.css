@@ -1,0 +1,67 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+	font-size: 14.5px;
+}
+ul  li{
+	list-style-type: none;
+
+}
+#container{
+	width: 100%;
+}
+.wrapper{
+	width: 980px;
+	margin: 0px auto;
+
+}
+h3{
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: normal;
+	font-style: 12px;
+	margin: 0;
+	padding: 0 0 12 0;
+}
+ul{
+	margin: 0;
+	padding: 0;
+
+}
+li.pad{
+	float:left;
+
+}
+#holder li{
+	color: #838080;
+	text-decoration: none;
+	display: block;
+	transition: 0.1s;
+}
+a{
+	color: #838080;
+	text-decoration: none;
+	display: block;
+	transition: 0.1s;
+
+}
+.pad a{
+	padding:18 17 22 17;
+}
+#holder ul{
+	width: 100%;
+}
+#holder ul li span{
+	padding: 7 0;
+}
+.pad > a:hover, .using > li:hover > a{
+	background: #262626;
+}
+#software ul li a:hover span{
+	transition: 0.1s;
+}
+#t-d ul li a:hover span, .using > li:hover > a > span{
+	border-bottom: 2px solid #FF6E00;
+	transition: 0.1s;
+}
