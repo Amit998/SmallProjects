@@ -1,4 +1,4 @@
-mapboxgl.accessToken = 'pk.eyJ1IjoiZGFtaXRsdWNreTk5OCIsImEiOiJja3B4a2k1emEwNnYyMm9xY2ZxdGw5MHl6In0.WkSpCetT2vGgFnKDIx7NYQ';
+mapboxgl.accessToken = 'pk.YOURTOKEN';
 
 navigator.geolocation.getCurrentPosition(successLocation,errorLocation,{
     enableHighAccuracy:true
